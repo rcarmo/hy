@@ -23,7 +23,7 @@ from hy.errors import HyError
 
 
 class LexException(HyError):
-    """Error during the Lexing of a Hython expression."""
+    """Error during the Lexing of a Hy expression."""
     def __init__(self, message, lineno, colno):
         super(LexException, self).__init__(message)
         self.message = message
